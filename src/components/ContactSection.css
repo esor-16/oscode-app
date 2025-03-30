@@ -1,0 +1,104 @@
+.contact-section {
+    padding: 60px 20px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    text-align: left;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5em; /* Increase font size for the main heading */
+    margin-bottom: 30px;
+    color: var(--secondary-text-color);
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between; /* Align details and form */
+    padding: 20px;
+  }
+  
+  .contact-details {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid var(--secondary-text-color); /* Add border for rectangle effect */
+    width: 450px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+ 
+  
+  .contact-details p {
+    font-size: 1.7em; /* Increase font size for the paragraph */
+  }
+  
+  .svg-icons {
+    margin-top: 50px;
+  }
+  
+  .contact-icon {
+    width: 50px; /* Increase image size */
+    height: 50px; /* Increase image size */
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .contact-form {
+    text-align: left;
+    width: 400px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1em; /* Increase font size for labels */
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    font-size: 1em; /* Increase font size for input and textarea */
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em; /* Increase font size for submit button */
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: var(--link-hover-color);
+  }
+  
+  .confirmationMessage {
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+  }
+  
+  .made-by {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: var(--primary-text-color);
+    text-align: center;
+    width: 100%;
+  }
